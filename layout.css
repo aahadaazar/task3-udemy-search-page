@@ -1,0 +1,194 @@
+.itemlist{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+}
+
+.tab{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    list-style: none;
+}
+
+.tabopt,.tabopt2{
+    border:none;
+    background-color:white;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:15px;
+    padding-bottom: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.411);
+    border-top:2px solid lightseagreen;
+}
+.tabopt2{
+    border:none;
+    background-color:white;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:15px;
+    padding-bottom: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.698);
+}
+
+.ins,.myco{
+    width: auto;
+    height: 100%;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    margin-top: 12px;
+}
+
+
+
+.footer{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+
+.secondfooter{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    width:auto;
+    height:auto;
+    background-color: rgb(232, 233, 235);
+    padding-top:20px;
+    padding-bottom:10px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.secondfooter img{
+    margin-right:5%;
+    width:4%;
+    height: 4%;
+}
+
+.secondfooter span{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.secondfooter input{
+    border:1px solid rgb(54, 54, 240);
+    width: auto;
+    margin-left: auto;
+    margin-top:1.5%;
+    height: 90%;
+    padding-left: 70px;
+    padding-right: 70px;
+    color:rgb(54, 54, 240);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px){
+
+    .itemlist{
+        -webkit-flex-direction: column;
+    }
+
+    .myco,.ca,.no,.he,.ins{
+        display: none;
+    }
+
+    .ud,.catitem{
+        margin:auto;
+    }
+
+    .catitem{
+        margin-top:10px;
+    }
+    .searchc{
+        width:auto;
+        margin:auto;
+        margin-top:10px;
+    }
+    input{
+        width:80%;
+    }
+    .search{
+        width: auto;
+        padding-right: 1px;
+    }
+    .mainheader:input{
+        width:70%;
+    }
+    
+
+    .mainheader{
+        background-color:white;
+        position: fixed;
+        top:0;
+        width: 100%;
+        z-index: 100;
+    }
+    .secondhead{
+        position:fixed;
+        width:100%;
+        top:136px;
+        z-index: 100;
+    }
+
+
+    .tab{
+        display: none;
+    }
+    
+    #cpic{
+        height: auto;
+        width: auto;
+    }
+
+    .cart{
+        width: auto;
+        min-width: 380px;
+        padding-top:180px;;
+    }
+    .course{
+        width: auto;
+    }
+    .inf{
+        display: none;
+    }
+    .sell{
+        display: none;
+    }
+
+    .ratenumber{
+        display: none;
+    }
+
+    .number{
+        margin-left:45%;
+    }
+    .number input{
+        padding:10px;
+    }
+
+    .secondfooter{
+        display: none;
+    }
+
+
+}

@@ -1,0 +1,261 @@
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+
+.mainheader{
+    width: auto;
+    height: auto;
+    padding-right:30px;
+    box-shadow: 5px 0 5px;
+}
+
+.itemlist{
+    list-style: none;
+    margin:0;
+}
+
+
+
+.logo{
+    width:100px;
+    height: 50px;
+    margin-top:7px;
+}
+
+
+
+.catitem{
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.category{
+    width:20px;
+    height: 20px;
+    margin-right:10px;
+    
+    vertical-align: text-bottom;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.searchc{
+    height: 100%;
+    width: 30%;
+    margin-left: 30px;
+    border: none;
+    margin-top:15px;
+    background-color: rgba(218, 218, 218, 0.329);
+    border-radius: 3px;
+}
+
+
+input{
+    width: 85%;
+    padding:8px;
+    border: none;
+    background-color: rgb(218, 218, 218);
+    color: grey;
+}
+
+.search{
+    width:12px;
+    height: 12px;
+    padding-left: 4%;
+}
+
+
+
+
+.he,.no,.ca{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    padding:12px;
+}
+
+
+/* secondary header */
+
+
+.secondhead{
+    width:auto;
+    margin:auto;
+    padding:20px;
+    padding-left:10%;
+    padding-right: 15%;
+    background-color: rgb(228, 224, 224);
+    height: auto;
+}
+
+.res{
+    margin:0;
+    font-size: 20px;
+}
+
+.tab{
+    margin-top:30px;
+    width: auto;
+}
+
+
+
+/* Cart */
+
+.cart{
+    margin:auto;
+    margin-top:30px;
+    width: 80%;
+    height: auto;
+}
+
+.course{
+    width:70%;
+    border: 1px solid rgba(114, 112, 112, 0.541);
+    height: auto;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    padding-bottom:20px;
+    margin-bottom: 20px;
+}
+
+
+.sell{
+    width:8%;
+    height: 10%;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.bsanime{
+    font-size:14px;
+    opacity: 0;
+    -webkit-transition-duration:0.3s;
+}
+
+.mainheading{
+    font-size: 20px;
+    padding-top:10px;
+}
+
+.author{
+    font-size: 12px;
+    margin-bottom:5px;
+    text-decoration: underline;
+}
+
+.price b{
+    margin-top:5px;
+    text-decoration:underline;
+    font-size: 20px;
+}
+
+
+.content{
+display: -webkit-flex;
+display: flex;
+list-style:none;
+flex-direction: column;
+width:auto;
+padding-left: 10px;
+margin-top:0;
+}
+
+.inf{
+margin-top:10px;
+}
+
+.inf img{
+width:2%;
+height:1%;
+vertical-align: center;
+}
+
+.ratenumber{
+    margin-left: 45%;
+    border:2px solid rgba(0, 0, 0, 0.137);
+}
+
+.ratenumber img{
+    width: 3%;
+    height: 3%;
+    vertical-align: text-bottom;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+
+
+/* Footer*/
+
+.number{
+    list-style: none;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    margin-left:50%;
+    margin-right:50%;
+    margin-top: 50px;
+    margin-bottom:50px;
+}
+
+.number input{
+    text-align: center;
+    padding:20px;
+    padding-right: 30px;
+    border:1px solid rgb(206, 206, 206);
+}
+
+
+
+/* hover/focus */
+
+
+input:focus{
+outline: none;
+background-color: white;
+}
+
+.searchc:focus{
+background-color: white;
+border:2px solid rgba(128, 128, 128, 0.356);
+}
+
+
+.he:hover,.no:hover,.ca:hover{
+    border:1px solid rgba(0, 0, 0, 0.219);
+    border-radius:20px;
+}
+
+.tabopt:hover{
+    background-color: rgba(135, 206, 250, 0.329)
+}
+
+
+.sell:hover ~ .bsanime{
+    -webkit-transition-duration: 0.9s;
+    margin-left:10px;
+    opacity: 1;
+}
+
+.ins:hover,.myco:hover{
+    background-color: rgba(211, 210, 210, 0.151);
+    border:1px solid rgba(218, 213, 213, 0.082);
+    border-radius: 5px;
+}
+
+.number input:hover{
+    background-color: rgba(66, 66, 246, 0.205);
+    border:1px solid rgb(85, 85, 221);
+}
+
+.secondfooter input:hover{
+    background-color:rgba(167, 167, 224, 0.233);
+}
